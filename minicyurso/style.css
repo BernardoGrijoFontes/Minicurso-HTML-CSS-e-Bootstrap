@@ -1,0 +1,51 @@
+@media (max-width: 800px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+    nav {
+        display: block;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #212529;
+    line-height: 1.6;
+    padding: 0;
+}
+
+header {
+    background-color: #343434;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: #ffc107;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3 ease;
+}
+
+nav a:hover {
+    color: #fff;
+}
