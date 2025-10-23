@@ -58,3 +58,30 @@ main {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+
+section {
+    margin-bottom: 40px;
+    padding: 20px 0;
+}
+
+section h2 {
+    color: #0d6efd;
+    border-bottom: 2px solid #0d6efd;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.galeria-grid {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;;
+}
+
+.galeria-item {
+    flex: 1 1 0;
+    min-width: 220px;
+    display: flex;
+    flex-direction: column;
+}
